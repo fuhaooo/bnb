@@ -1,6 +1,8 @@
-# next-template
+# next-shadcn-template
 
 A Next.js 15 template for building apps with Radix UI and Tailwind CSS.
+
+By default, all shadcn/ui components are installed for convenience. Useful for AI-generated interfaces.
 
 ## Usage
 
@@ -9,7 +11,7 @@ npx create-next-app -e https://github.com/shadcn/next-template
 ```
 
 ## Features
-
+- AI Friendly (For Cursor / Windsurf)
 - Next.js 15 App Directory
 - Radix UI Primitives
 - Tailwind CSS
@@ -26,9 +28,8 @@ Ensure all server-rendered routes use the Edge Runtime
 export const runtime = "edge";
 ```
 
+Easy deploy to Cloudflare Pages
 ```bash
-npm run pages:build
-npm run preview
 npm run deploy
 ```
 
