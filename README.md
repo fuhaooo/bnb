@@ -1,4 +1,5 @@
 # Next.js Shadcn Template
+[English](README.md) | [中文](README.zh-CN.md)
 
 A modern, feature-rich Next.js template with Shadcn UI components. It's particularly suitable for AI code editor development (like Cursor / Windsurf)
 
