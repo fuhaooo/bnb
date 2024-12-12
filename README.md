@@ -38,9 +38,22 @@ npm run dev
 
 ## Deploy
 
+### Option 1 Vercel
+Deploy to [Vercel](https://vercel.com)
+
+First, register your Vercel account.
+Second, run the following command:
+
+```bash
+# Install [Vercel CLI](https://vercel.com/cli)
+npm i -g vercel
+npm run deploy
+```
+### Option 2
+
 Easy deploy to Cloudflare Pages:
 ```bash
-npm run deploy
+npm run cf:deploy
 ```
 
 ## AI Development Support
