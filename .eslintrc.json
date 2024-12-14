@@ -14,7 +14,9 @@
     "tailwindcss/no-custom-classname": "off",
     "tailwindcss/enforces-shorthand": "off",
     "react/no-unescaped-entities": "off",
-    "tailwindcss/classnames-order": "off"
+    "tailwindcss/classnames-order": "off",
+    "tailwindcss/migration-from-tailwind-2": "off",
+    "tailwindcss/no-unnecessary-arbitrary-value": "off"
   },
   "settings": {
     "tailwindcss": {

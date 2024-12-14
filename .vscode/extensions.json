@@ -9,6 +9,8 @@
     "wix.vscode-import-cost",
     "christian-kohler.path-intellisense",
     "yoavbls.pretty-ts-errors",
-    "meganrogge.template-string-converter"
+    "meganrogge.template-string-converter",
+    "ms-ceintl.vscode-language-pack-zh-hans",
+    "eamodio.gitlens"
   ]
 }
