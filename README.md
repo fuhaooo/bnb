@@ -1,17 +1,11 @@
-# 专门适配 Cursor / WindSurf 网站模板
+# AI旅行顾问
 
-这是一个专门适配 AI 编辑器（Cursor / WindSurf ） 中文网站模板，方便新手快速基于 AI 开发出自己的网站
+我的项目是通过Eliza框架部署了一个名叫bnb的AI Agent，她是一个旅行顾问，擅长帮人指定旅行攻略，推荐旅行目的地的美食和景点，也可以给旅行中遇到的问题提出一些建议。
+目前聊天窗口是通过Iframe嵌入到前端页面，后续如果Eliza服务部署后，可以通过api直接调用。
 
-## 基于此模板开发的 AI 项目案例
-> 下面的案例都可以在 0.5 ~ 1 小时之内复现
+demo展示：https://www.loom.com/share/22adafb2b41b405c8ee1f24b94f43dfc?sid=17551a90-659f-4b59-aab0-a7dc5fdf181e
 
-- [周周黑客松网站-现代简洁风](https://hackweek.pages.dev/)
-- [周周黑客松网站-终端风格](https://terminal-style.hackweek.pages.dev/)
-- [美颜补光灯](https://buguangdeng.vercel.app/ringlight)
-
-你还可以用它开发更多有趣的网站！ 比如公司、产品官网 / 个人博客 / 小游戏 / 小工具等等
-
-## 特性
+## [AI 项目快速开发模板](https://github.com/jackiexiao/next-shadcn-template)
 
 - 适配 Cursor / WindSurf
   - 内置合适的代码 prompt: `.cursorrules`  和 `.windsurfrules` （默认使用中文）
@@ -97,11 +91,3 @@ package.json:   # 项目配置文件
   - 尽可能使用国内镜像源，加快下载速度
 - `shadcn-ui`
   - 默认安装了全部组件，尽管会增加依赖，但这样小白使用起来更方便
-
-## 许可证
-
-MIT 许可证 - 您可以将此模板用于任何项目！
-
-## 贡献
-
-欢迎贡献！请随时提交 Pull Request。
